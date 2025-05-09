@@ -6,7 +6,7 @@ public class Hotel {
     ArrayList<Reserva> reservas;
     ArrayList<Hospede> hospedes;
 
-    public Hotel(String nome) {
+    public Hotel(String nome){
         this.nome = nome;
         quartos = new ArrayList<>();
         reservas = new ArrayList<>();
