@@ -20,9 +20,6 @@ public class Quarto {
     public int getNumero() {
         return numero;
     }
-    public void setNumero(int numero) {
-        this.numero = numero;
-    }
     public Tipo getTipo() {
        return tipo;
     }
@@ -44,5 +41,8 @@ public class Quarto {
 
     public String toString() {
         return numero + " - " + tipo + " - " + preco;
+    }
+    public String toCSV(){
+        return numero + "," + tipo + "," + preco + "," + taOcupado;
     }
 }

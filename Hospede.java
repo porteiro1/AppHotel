@@ -30,4 +30,7 @@ public class Hospede {
     public String toString() {
         return nome + " " + cpf + " " + telefone;
     }
+    public String toCSV(){
+        return nome + "," + cpf + "," + telefone;
+    }
 }
